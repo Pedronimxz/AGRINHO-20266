@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Sustentável - Energias Renováveis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Agro<span>Forte</span></div>
+            <ul>
+                <li><a href="#solar">Solar</a></li>
+                <li><a href="#eolica">Eólica</a></li>
+                <li><a href="#calculadora">Economia</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Equilíbrio entre Produção e Meio Ambiente</h1>
+        <p>O futuro do agronegócio passa pelas energias limpas.</p>
+    </section>
+
+    <main>
+        <section id="solar" class="info-section">
+            <h2>Energia Solar no Campo</h2>
+            <p>Painéis fotovoltaicos permitem que o produtor gere sua própria energia para sistemas de irrigação e cercas elétricas, reduzindo custos operacionais em até 90%.</p>
+        </section>
+
+        <section id="eolica" class="info-section">
+            <h2>Energia Eólica Rural</h2>
+            <p>Ideal para propriedades com ventos constantes. As turbinas podem coexistir com a pastagem do gado, otimizando o uso do solo.</p>
+        </section>
+
+        <section id="calculadora" class="calc-section">
+            <h2>Simule sua Economia</h2>
+            <div class="calc-box">
+                <input type="number" id="gasto" placeholder="Gasto mensal em R$">
+                <button onclick="calcular()">Calcular Economia Anual</button>
+                <p id="resultado"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Concurso Agrinho - Desenvolvido para um futuro sustentável.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
